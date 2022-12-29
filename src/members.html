@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>Band Members</title>
+  </head>
+  <body class="body">
+    <include src="./views/header.html"></include>
+    <main class="flex-1 md:mx-8 lg:mx-16 xl:mx-24 2xl:mx-48 3xl:mx-60">
+      <div class="max-w-[90vw] py-8 m-auto align-middle bg-white/90 rounded-2xl md:max-w-[100vw] md:px-8">
+        <h1 class="m-auto p-4 pb-8 font-title text-4xl font-bold text-center sm:text-5xl lg:text-6xl">Meet our band members</h1>
+        <div class="flex flex-wrap justify-center align-middle md:px-5">
+          <div class="member__card">
+            <div>
+              <picture>
+                <source srcset="./assets/images/member_vocalist.jpg?as=webp" type="image/webp"/>
+                <img src="./assets/images/member_vocalist.jpg" alt="Band vocalist" class="w-96 h-96 object-cover rounded-l-2xl" />
+              </picture>
+            </div>
+            <div class="flex flex-col max-w-1/2 p-5">
+              <p class="font-title text-3xl text-center border-dashed border-b border-black mb-4">Graham Blaine</p>
+              <p class="font-semibold text-center mb-4">Vocalist</p>
+              <p class="overflow-y-auto text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et vehicula dui, nec porttitor mauris. </p>
+            </div>
+          </div>
+          <div class="member__card">
+            <div>
+              <picture>
+                <source srcset="./assets/images/member_leadGuitar.jpg?as=webp" type="image/webp" />
+                <img src="./assets/images/member_leadGuitar.jpg" alt="Lead guitar" class="w-96 h-96 object-cover rounded-l-2xl" />
+              </picture>
+            </div>
+            <div class="flex flex-col max-w-1/2 p-5">
+              <p class="font-title text-3xl text-center border-dashed border-b border-black mb-4">Katrine Hartley</p>
+              <p class="font-semibold text-center mb-4">Lead guitar</p>
+              <p class="overflow-y-auto text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus quam, hendrerit eu tellus et, egestas egestas nunc.</p>
+            </div>
+          </div>
+          <div class="member__card">
+            <div>
+              <picture>
+                <source srcset="./assets/images/member_rhythmGuitar-1.jpg?as=webp" type="image/webp" />
+                <img src="./assets/images/member_rhythmGuitar-1.jpg" alt="Band vocalist" class="w-96 h-96 object-cover rounded-l-2xl" />
+              </picture>
+            </div>
+            <div class="flex flex-col max-w-1/2 p-5">
+              <p class="font-title text-3xl text-center border-dashed border-b border-black mb-4">Eirian Connel</p>
+              <p class="font-semibold text-center mb-4">Rhythim guitar</p>
+              <p class="overflow-y-auto text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend urna et dapibus efficitur.</p>
+            </div>
+          </div>
+          <div class="member__card">
+            <div>
+              <picture>
+                <source srcset="./assets/images/member_rhythmGuitar-2.jpg?as=webp" type="image/webp" />
+                <img src="./assets/images/member_rhythmGuitar-2.jpg" alt="Band vocalist" class="w-96 h-96 object-cover rounded-l-2xl" />
+              </picture>
+            </div>
+            <div class="flex flex-col max-w-1/2 p-5">
+              <p class="font-title text-3xl text-center border-dashed border-b border-black mb-4">Finlay O'Berne</p>
+              <p class="font-semibold text-center mb-4">Rhythim guitar</p>
+              <p class="overflow-y-auto text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut quam sagittis, dictum nulla in, auctor erat.</p>
+            </div>
+          </div>
+          <div class="member__card">
+            <div>
+              <picture>
+                <source srcset="./assets/images/member_bass.jpg?as=webp" type="image/webp" />
+                <img src="./assets/images/member_bass.jpg" alt="Band vocalist" class="w-96 h-96 object-cover rounded-l-2xl" />
+              </picture>
+            </div>
+            <div class="flex flex-col max-w-1/2 p-5">
+              <p class="font-title text-3xl text-center border-dashed border-b border-black mb-4">Randall Bisset</p>
+              <p class="font-semibold text-center mb-4">Bass</p>
+              <p class="overflow-y-auto text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget tortor sodales, dapibus ligula eget, euismod ipsum.</p>
+            </div>
+          </div>
+          <div class="member__card">
+            <div>
+              <picture>
+                <source srcset="./assets/images/member_drums.jpg?as=webp" type="image/webp" />
+                <img src="./assets/images/member_drums.jpg" alt="Band vocalist" class="w-96 h-96 object-cover rounded-l-2xl" />
+              </picture>
+            </div>
+            <div class="flex flex-col max-w-1/2 p-5">
+              <p class="font-title text-3xl text-center border-dashed border-b border-black mb-4">Connor Finn</p>
+              <p class="font-semibold text-center mb-4">Drums</p>
+              <p class="overflow-y-auto text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ligula id tortor auctor mollis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>

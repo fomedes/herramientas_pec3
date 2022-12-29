@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>About us</title>
+  </head>
+  <body class="body">
+    <include src="./views/header.html"></include>
+    <main class="flex-1 md:mx-8 lg:mx-16 xl:mx-32 2xl:mx-80">
+      <div class="max-w-[90vw] py-8 m-auto align-middle bg-white/90 rounded-3xl md:max-w-[100vw]">
+        <h1 class="m-auto p-4 font-title text-4xl font-bold text-center sm:text-5xl lg:text-6xl">About us</h1>
+        <div class="flex flex-col p-5
+                  md:grid grid-cols-2 
+                  lg:grid-cols-3 
+                  xl:grid-cols-5">
+
+          <p class="p-3 h-full lg:col-span-2 xl:col-span-3">Etiam at consequat mi. In et sapien lacus. In dapibus, elit tempor euismod porta, odio lorem feugiat diam, sed scelerisque quam arcu id dolor. Nam eu eleifend nisl. Nunc dapibus massa eros, quis congue ex dapibus id. Proin pretium euismod semper. Proin molestie erat ac malesuada pharetra. Donec nulla nibh, scelerisque vitae gravida non, varius et orci. Curabitur in semper ex. Nullam non vehicula nulla. Integer sed nisl sagittis, gravida sapien vel, convallis leo. Phasellus fermentum feugiat orci, et eleifend massa. Vivamus ante massa, commodo sit amet lorem nec, ultricies facilisis nunc. Quisque eget pellentesque lorem.</p>
+
+          <figure class="p-3 h-full xl:col-span-2">
+            <blockquote>
+                <p class="p-4 m-0 bg-white rounded-t-md before:content-['\201C'] after:content-['\201D']">Mauris justo augue, cursus ut diam ut, luctus ornare nunc. Sed tempus leo at velit imperdiet, non viverra urna dignissim. Cras eget enim vitae risus sagittis blandit. Nam ac nisl ut tellus pretium egestas. Ut feugiat posuere massa, at sagittis.
+                </p>
+            </blockquote>
+            <figcaption class="p-4 bg-white/60 rounded-b-md">—Dan K. Huffman, 
+              <cite>Decibel: issue #217</cite>
+            </figcaption>
+          </figure>
+
+          <picture class="p-3 h-full w-2/3 m-auto md:w-4/5 lg:w-full lg:row-span-2 xl:col-span-2 ">
+            <source srcset="./assets/images/singer.jpg?as=webp" type="image/webp"/>
+            <img src="./assets/images/singer.jpg" alt="Band vocalist" class="w-max h-full object-cover rounded-lg" />
+          </picture>
+  
+          <p class="p-3 h-full lg:col-span-2 xl:col-span-3">Praesent vulputate, est pellentesque blandit eleifend, elit turpis viverra neque, ac tempor turpis metus in ex. Nam posuere vitae massa vitae gravida. Cras semper nisi at congue egestas. Donec dictum nibh ut est consequat blandit. Etiam non nulla ac nunc euismod finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In nec tortor sodales, porta felis non, malesuada ante. Ut nec vestibulum magna, a cursus quam. Aenean ut sapien tempus, sodales quam eu, ultrices leo. Fusce at leo ut sem pretium consequat. Morbi quis vestibulum ligula, et feugiat nulla. Aliquam eget sollicitudin dui. Quisque imperdiet lectus et venenatis condimentum. Suspendisse potenti. Mauris bibendum libero justo.</p>
+
+          <p class="p-3 h-full md:col-span-2 xl:col-span-3">Morbi hendrerit fringilla velit a pretium. Nulla fermentum massa sit amet felis ultrices, non accumsan metus pretium. Quisque eu nisl placerat, ultricies sapien ac, ultrices orci. Vestibulum aliquet ultrices justo at sagittis. Donec sed lorem metus. Nulla posuere urna dui. Quisque in quam tempus, molestie mi id, mattis nulla. Vivamus vehicula velit nec lobortis tincidunt. Nulla imperdiet arcu volutpat, pretium nisi id, vehicula nisi. Nulla sit amet sapien est. Proin lectus eros, feugiat in nisl at, dapibus ultrices nibh. Donec eu quam venenatis, imperdiet massa ut, molestie sapien. Ut at quam velit. Nunc dapibus vulputate nibh, sed ullamcorper augue laoreet quis. Nam vel risus mauris.</p>
+
+          <p class="p-3 h-full md:col-span-2 xl:col-span-3">In hac habitasse platea dictumst. Sed non augue dolor. Vivamus non dolor tincidunt diam lobortis mollis ut sit amet mauris. Duis quis bibendum augue, non pellentesque nisi. Cras sed risus orci. Cras ullamcorper sem elementum orci tempor, interdum aliquet neque porta. Aliquam erat volutpat. Quisque finibus varius erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris malesuada, ex in condimentum molestie, mi risus ultrices risus, eget convallis tellus sem at risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed laoreet elementum sodales. Nunc porta eu metus eu viverra.</p>
+
+          <picture class="p-3 h-full w-2/3 m-auto md:w-4/5 lg:w-full lg:row-span-2 xl:col-span-2">
+            <source srcset="./assets/images/guitar.jpg?as=webp" type="image/webp"/>
+            <img src="./assets/images/guitar.jpg" alt="Band vocalist" class="w-max h-full object-cover rounded-lg" />
+          </picture>
+
+          <p class="p-3 h-full lg:col-span-2 xl:col-span-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum ultrices felis, eget pretium erat dapibus eu. In cursus fermentum justo, id lobortis erat. Fusce ac rutrum arcu, et vehicula ante. Quisque mi urna, lobortis ac libero molestie, porttitor vestibulum leo. Nunc vestibulum ullamcorper nulla ac tincidunt. In eget enim at erat lacinia eleifend. Fusce efficitur egestas ipsum vitae cursus. Aliquam ut arcu sapien. Vivamus id posuere mauris. Aliquam mollis justo sed finibus convallis. Nam ornare tempus quam, eget pulvinar nisi pulvinar non. Donec eget purus imperdiet, eleifend ligula nec, tempor neque. Nam id malesuada orci. Cras suscipit, augue ut dignissim auctor, magna nulla pretium arcu, at congue mi nisl vel dolor. Nullam sodales dignissim lorem id iaculis. Fusce rutrum leo sit amet dictum convallis. </p>
+        </div>
+      </div>
+    </main>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>
